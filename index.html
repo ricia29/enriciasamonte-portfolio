@@ -4,126 +4,117 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Enricia Samonte - Portfolio</title>
-  <link rel="stylesheet" href="style.css">
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
+<body class="bg-gray-50 text-gray-800">
 
   <!-- Hero Section -->
-  <header class="hero">
-    <div class="container hero-container">
-      <h1>ENRICIA TORRES SAMONTE</h1>
-      <h2>PHP / WordPress / Laravel Developer | Cloud & Infrastructure Specialist</h2>
-      <p class="intro">
-        I build secure, scalable, high-performance web applications and infrastructure, 
-        specializing in WordPress development, PHP/Laravel, cloud servers, and load balancing.
-      </p>
-      <div class="contact-buttons">
-        <a href="mailto:enriciasamonte2014@gmail.com" class="btn">Email Me</a>
-        <a href="portfolio.pdf" class="btn-outline" target="_blank">Download CV</a>
-      </div>
+  <header class="bg-gradient-to-r from-purple-600 to-blue-500 text-white py-20 text-center">
+    <h1 class="text-4xl md:text-5xl font-bold mb-4">ENRICIA TORRES SAMONTE</h1>
+    <h2 class="text-xl md:text-2xl mb-6 font-light">PHP / WordPress / Laravel Developer | Cloud & Infrastructure Specialist</h2>
+    <p class="max-w-2xl mx-auto mb-6">I build secure, scalable, high-performance web applications and infrastructure, specializing in WordPress development, PHP/Laravel, cloud servers, and load balancing.</p>
+    <div class="flex justify-center gap-4">
+      <a href="mailto:enriciasamonte2014@gmail.com" class="bg-white text-blue-500 px-6 py-3 rounded-lg font-medium hover:bg-gray-100 transition">Email Me</a>
+      <a href="portfolio.pdf" target="_blank" class="border-2 border-white px-6 py-3 rounded-lg hover:bg-white hover:text-blue-500 transition">Download CV</a>
     </div>
   </header>
 
   <!-- About Me -->
-  <section class="section container" id="about">
-    <h3>About Me</h3>
-    <p>
-      IT and QA professional with 10+ years of experience in system administration, cloud infrastructure, DevOps, 
-      and quality management. Proven track record in ensuring system reliability, operational excellence, and 
-      software readiness through rigorous testing and performance tuning.
-    </p>
+  <section class="py-16 px-6 md:px-20 bg-white text-center">
+    <h3 class="text-3xl font-bold mb-6 text-blue-600">About Me</h3>
+    <p class="max-w-3xl mx-auto text-gray-700">IT and QA professional with 10+ years of experience in system administration, cloud infrastructure, DevOps, and quality management. Proven track record in ensuring system reliability, operational excellence, and software readiness through rigorous testing and performance tuning.</p>
   </section>
 
   <!-- Skills -->
-  <section class="section container" id="skills">
-    <h3>Skills</h3>
-    <div class="skills-grid">
-      <div class="skill-card">
-        <h4>Programming & Scripting</h4>
+  <section class="py-16 px-6 md:px-20 bg-gray-50">
+    <h3 class="text-3xl font-bold mb-10 text-blue-600 text-center">Skills</h3>
+    <div class="grid md:grid-cols-3 gap-8">
+      <!-- Skill Card -->
+      <div class="bg-white p-6 rounded-xl shadow-lg hover:scale-105 transition transform">
+        <h4 class="text-xl font-semibold text-purple-600 mb-2">Programming & Scripting</h4>
         <p>Python, Java, Node.js, Go, PHP, HTML, CSS, C#, Bash/Sh, Clojure, Ruby, Perl, Scala, Haskell, JavaScript, jQuery, C++, Objective-C</p>
       </div>
-      <div class="skill-card">
-        <h4>Databases</h4>
+      <div class="bg-white p-6 rounded-xl shadow-lg hover:scale-105 transition transform">
+        <h4 class="text-xl font-semibold text-purple-600 mb-2">Databases</h4>
         <p>SQL, NoSQL, PostgreSQL, MySQL, SQLite, MSSQL, MS Access, RRDTool, MongoDB, Redis, TextFile Database</p>
       </div>
-      <div class="skill-card">
-        <h4>Web & Frameworks</h4>
+      <div class="bg-white p-6 rounded-xl shadow-lg hover:scale-105 transition transform">
+        <h4 class="text-xl font-semibold text-purple-600 mb-2">Web & Frameworks</h4>
         <p>Laravel, Phalcon, Django, WordPress, Drupal</p>
       </div>
-      <div class="skill-card">
-        <h4>WordPress & eCommerce</h4>
+      <div class="bg-white p-6 rounded-xl shadow-lg hover:scale-105 transition transform">
+        <h4 class="text-xl font-semibold text-purple-600 mb-2">WordPress & eCommerce</h4>
         <p>WooCommerce, Custom Themes, Custom Plugins, ACF, Payment Gateway Integration, Product Catalog, SEO, Security Hardening, Performance Optimization</p>
       </div>
-      <div class="skill-card">
-        <h4>Cloud & Servers</h4>
+      <div class="bg-white p-6 rounded-xl shadow-lg hover:scale-105 transition transform">
+        <h4 class="text-xl font-semibold text-purple-600 mb-2">Cloud & Servers</h4>
         <p>Servers Fullstack, Cronjobs, HAProxy, NGINX, Apache, VPN, CloudStack, System Administration</p>
       </div>
-      <div class="skill-card">
-        <h4>Tools & DevOps</h4>
+      <div class="bg-white p-6 rounded-xl shadow-lg hover:scale-105 transition transform">
+        <h4 class="text-xl font-semibold text-purple-600 mb-2">Tools & DevOps</h4>
         <p>Git, SSH, Bash, Supervisor, Log Monitoring, Cronjobs</p>
       </div>
-      <div class="skill-card">
-        <h4>Mobile & Game Development</h4>
+      <div class="bg-white p-6 rounded-xl shadow-lg hover:scale-105 transition transform">
+        <h4 class="text-xl font-semibold text-purple-600 mb-2">Mobile & Game Development</h4>
         <p>Android, iOS, Unity, Flutter/Dart</p>
       </div>
     </div>
   </section>
 
   <!-- Key Projects -->
-  <section class="section container" id="projects">
-    <h3>Key Projects</h3>
-    <div class="project-grid">
-      <div class="project-card">
-        <h4>High-Traffic Load Balancer</h4>
+  <section class="py-16 px-6 md:px-20 bg-white">
+    <h3 class="text-3xl font-bold mb-10 text-blue-600 text-center">Key Projects</h3>
+    <div class="grid md:grid-cols-2 gap-8">
+      <div class="bg-gray-50 p-6 rounded-xl shadow-lg hover:scale-105 transition transform">
+        <h4 class="text-xl font-semibold text-purple-600 mb-2">High-Traffic Load Balancer</h4>
         <p>Deployed HAProxy + NGINX handling millions of requests daily, with SSL offloading, health checks, auto-failover, and Slack alerts.</p>
       </div>
-      <div class="project-card">
-        <h4>Cloud Migration & Infrastructure Setup</h4>
+      <div class="bg-gray-50 p-6 rounded-xl shadow-lg hover:scale-105 transition transform">
+        <h4 class="text-xl font-semibold text-purple-600 mb-2">Cloud Migration & Infrastructure Setup</h4>
         <p>Led end-to-end server and database migration to Apache CloudStack with secure, scalable virtual environments.</p>
       </div>
-      <div class="project-card">
-        <h4>Cross-Platform Mobile Apps</h4>
+      <div class="bg-gray-50 p-6 rounded-xl shadow-lg hover:scale-105 transition transform">
+        <h4 class="text-xl font-semibold text-purple-600 mb-2">Cross-Platform Mobile Apps</h4>
         <p>Developed responsive apps using Flutter/Dart integrating RESTful APIs and high-traffic UX features.</p>
       </div>
-      <div class="project-card">
-        <h4>eCommerce Website Development</h4>
+      <div class="bg-gray-50 p-6 rounded-xl shadow-lg hover:scale-105 transition transform">
+        <h4 class="text-xl font-semibold text-purple-600 mb-2">eCommerce Website Development</h4>
         <p>Built fully functional eCommerce site using WordPress + WooCommerce. Implemented custom themes, plugins, payment gateways, SEO, and responsive UX for seamless shopping experience.</p>
       </div>
     </div>
   </section>
 
   <!-- Professional Experience -->
-  <section class="section container" id="experience">
-    <h3>Professional Experience</h3>
-    <ul class="timeline">
-      <li>
+  <section class="py-16 px-6 md:px-20 bg-gray-50">
+    <h3 class="text-3xl font-bold mb-10 text-blue-600 text-center">Professional Experience</h3>
+    <ul class="space-y-6">
+      <li class="bg-white p-6 rounded-xl shadow-lg hover:translate-x-2 transform transition">
         <strong>Computer Programmer – Emerald Pedistal Properties Inc. (2022–2025)</strong>
-        <br>Managed server setups, pre-release testing, mobile app testing, and system maintenance.
+        <p>Managed server setups, pre-release testing, mobile app testing, and system maintenance.</p>
       </li>
-      <li>
+      <li class="bg-white p-6 rounded-xl shadow-lg hover:translate-x-2 transform transition">
         <strong>Network Management Manager – J&T Express (2022)</strong>
-        <br>Led QA initiatives, process improvements, and operational monitoring.
+        <p>Led QA initiatives, process improvements, and operational monitoring.</p>
       </li>
-      <li>
+      <li class="bg-white p-6 rounded-xl shadow-lg hover:translate-x-2 transform transition">
         <strong>QA / QC Supervisor – J&T Express (2019–2022)</strong>
-        <br>Oversaw audits, defect tracking, and team training to maintain high quality standards.
+        <p>Oversaw audits, defect tracking, and team training to maintain high quality standards.</p>
       </li>
-      <li>
+      <li class="bg-white p-6 rounded-xl shadow-lg hover:translate-x-2 transform transition">
         <strong>IT Associate – J&T Express (2018)</strong>
-        <br>Installed and configured IT systems, monitored CCTV, and ensured preventive maintenance.
+        <p>Installed and configured IT systems, monitored CCTV, and ensured preventive maintenance.</p>
       </li>
-      <li>
+      <li class="bg-white p-6 rounded-xl shadow-lg hover:translate-x-2 transform transition">
         <strong>IT Administrator – Kedica Philippines (2015–2017)</strong>
-        <br>SAP setup, backups, preventive maintenance, and procurement management.
+        <p>SAP setup, backups, preventive maintenance, and procurement management.</p>
       </li>
     </ul>
   </section>
 
   <!-- Certifications -->
-  <section class="section container" id="certifications">
-    <h3>Certifications</h3>
-    <ul>
+  <section class="py-16 px-6 md:px-20 bg-white">
+    <h3 class="text-3xl font-bold mb-6 text-blue-600 text-center">Certifications</h3>
+    <ul class="list-disc list-inside space-y-2 max-w-2xl mx-auto text-gray-700">
       <li>SAP Business One</li>
       <li>Microsoft Office Specialist</li>
       <li>TESDA NCII – Computer Hardware Servicing</li>
@@ -132,20 +123,20 @@
   </section>
 
   <!-- Education -->
-  <section class="section container" id="education">
-    <h3>Education</h3>
+  <section class="py-16 px-6 md:px-20 bg-gray-50 text-center">
+    <h3 class="text-3xl font-bold mb-6 text-blue-600">Education</h3>
     <p>Bachelor of Science in Information Technology, College of the Immaculate Conception (2007–2011)</p>
   </section>
 
   <!-- Contact -->
-  <section class="section container" id="contact">
-    <h3>Contact</h3>
+  <section class="py-16 px-6 md:px-20 bg-white text-center">
+    <h3 class="text-3xl font-bold mb-6 text-blue-600">Contact</h3>
     <p>Email: <strong>enriciasamonte2014@gmail.com</strong></p>
     <p>Phone: <strong>+63 968 277 8655</strong></p>
     <p>Location: Philippines</p>
   </section>
 
-  <footer>
+  <footer class="bg-blue-500 text-white text-center py-6">
     <p>© 2025 Enricia Torres Samonte — Portfolio</p>
   </footer>
 
