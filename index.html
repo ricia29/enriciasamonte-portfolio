@@ -4,124 +4,147 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Enricia Samonte - Portfolio</title>
-  <!-- Link to CSS in the same folder -->
   <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
 
-  <!-- Header / Hero Section -->
+  <!-- Hero Section -->
   <header class="hero">
-    <div class="container">
+    <div class="container hero-container">
       <h1>ENRICIA TORRES SAMONTE</h1>
-      <h2>PHP / WordPress / Laravel Developer<br>Cloud & Infrastructure Specialist</h2>
+      <h2>PHP / WordPress / Laravel Developer | Cloud & Infrastructure Specialist</h2>
       <p class="intro">
-        I build secure, scalable, and high-performance web applications and infrastructure.
-        Specialized in WordPress development, PHP/Laravel, cloud servers, and load balancing.
+        I build secure, scalable, high-performance web applications and infrastructure, 
+        specializing in WordPress development, PHP/Laravel, cloud servers, and load balancing.
       </p>
-
       <div class="contact-buttons">
         <a href="mailto:enriciasamonte2014@gmail.com" class="btn">Email Me</a>
-        <a href="portfolio.pdf" class="btn-outline" target="_blank">Download PDF</a>
+        <a href="portfolio.pdf" class="btn-outline" target="_blank">Download CV</a>
       </div>
     </div>
   </header>
 
-  <!-- About Me Section -->
-  <section class="section container">
+  <!-- About Me -->
+  <section class="section container" id="about">
     <h3>About Me</h3>
     <p>
-      IT Professional with 10+ years of experience in system administration, cloud infrastructure, QA,
-      and full-stack development. Strong background in PHP, WordPress theme & plugin development,
-      Laravel, server engineering, and high-traffic system optimization.
+      IT and QA professional with 10+ years of experience in system administration, cloud infrastructure, DevOps, 
+      and quality management. Proven track record in ensuring system reliability, operational excellence, and 
+      software readiness through rigorous testing and performance tuning.
     </p>
   </section>
 
-  <!-- Skills Section -->
-  <section class="section container">
+  <!-- Skills -->
+  <section class="section container" id="skills">
     <h3>Skills</h3>
     <div class="skills-grid">
       <div class="skill-card">
-        <h4>Programming</h4>
-        <p>PHP, Laravel, WordPress, JavaScript, HTML, CSS, Python, Django</p>
-      </div>
-      <div class="skill-card">
-        <h4>WordPress</h4>
-        <p>Custom Themes, Plugins, ACF, WooCommerce, Performance, Security Hardening</p>
-      </div>
-      <div class="skill-card">
-        <h4>Cloud & Infrastructure</h4>
-        <p>CloudStack, HAProxy, NGINX, Apache, nftables, VPN, Load Balancer</p>
+        <h4>Programming & Scripting</h4>
+        <p>Python, Java, Node.js, Go, PHP, HTML, CSS, C#, Bash/Sh, Clojure, Ruby, Perl, Scala, Haskell, JavaScript, jQuery, C++, Objective-C</p>
       </div>
       <div class="skill-card">
         <h4>Databases</h4>
-        <p>MySQL, PostgreSQL, SQL</p>
+        <p>SQL, NoSQL, PostgreSQL, MySQL, SQLite, MSSQL, MS Access, RRDTool, MongoDB, Redis, TextFile Database</p>
       </div>
       <div class="skill-card">
-        <h4>Tools</h4>
-        <p>Git, SSH, Bash, Cronjobs, JIRA, Log Monitoring</p>
+        <h4>Web & Frameworks</h4>
+        <p>Laravel, Phalcon, Django, WordPress, Drupal</p>
       </div>
       <div class="skill-card">
-        <h4>Mobile</h4>
-        <p>Flutter / Dart</p>
+        <h4>WordPress & eCommerce</h4>
+        <p>WooCommerce, Custom Themes, Custom Plugins, ACF, Payment Gateway Integration, Product Catalog, SEO, Security Hardening, Performance Optimization</p>
+      </div>
+      <div class="skill-card">
+        <h4>Cloud & Servers</h4>
+        <p>Servers Fullstack, Cronjobs, HAProxy, NGINX, Apache, VPN, CloudStack, System Administration</p>
+      </div>
+      <div class="skill-card">
+        <h4>Tools & DevOps</h4>
+        <p>Git, SSH, Bash, Supervisor, Log Monitoring, Cronjobs</p>
+      </div>
+      <div class="skill-card">
+        <h4>Mobile & Game Development</h4>
+        <p>Android, iOS, Unity, Flutter/Dart</p>
       </div>
     </div>
   </section>
 
-  <!-- Key Projects Section -->
-  <section class="section container">
+  <!-- Key Projects -->
+  <section class="section container" id="projects">
     <h3>Key Projects</h3>
     <div class="project-grid">
       <div class="project-card">
         <h4>High-Traffic Load Balancer</h4>
-        <p>Designed and deployed HAProxy + NGINX load balancer handling millions of daily requests. Includes SSL offloading, health checks, auto-failover, and Slack alerts.</p>
+        <p>Deployed HAProxy + NGINX handling millions of requests daily, with SSL offloading, health checks, auto-failover, and Slack alerts.</p>
       </div>
       <div class="project-card">
         <h4>Cloud Migration & Infrastructure Setup</h4>
-        <p>Migrated entire server infrastructure into Apache CloudStack with secure routing, VPN, hardened networking, backups, and production tuning.</p>
+        <p>Led end-to-end server and database migration to Apache CloudStack with secure, scalable virtual environments.</p>
       </div>
       <div class="project-card">
-        <h4>WordPress Business Website (Custom Theme)</h4>
-        <p>Developed lightweight, custom WordPress theme with property listings, SEO, fast loading, and clean admin UI.</p>
+        <h4>Cross-Platform Mobile Apps</h4>
+        <p>Developed responsive apps using Flutter/Dart integrating RESTful APIs and high-traffic UX features.</p>
+      </div>
+      <div class="project-card">
+        <h4>eCommerce Website Development</h4>
+        <p>Built fully functional eCommerce site using WordPress + WooCommerce. Implemented custom themes, plugins, payment gateways, SEO, and responsive UX for seamless shopping experience.</p>
       </div>
     </div>
   </section>
 
-  <!-- Professional Experience Section -->
-  <section class="section container">
+  <!-- Professional Experience -->
+  <section class="section container" id="experience">
     <h3>Professional Experience</h3>
     <ul class="timeline">
       <li>
         <strong>Computer Programmer – Emerald Pedistal Properties Inc. (2022–2025)</strong>
-        <br>Server management, QA testing, deployment, troubleshooting.
+        <br>Managed server setups, pre-release testing, mobile app testing, and system maintenance.
       </li>
       <li>
         <strong>Network Management Manager – J&T Express (2022)</strong>
-        <br>Ensured operational KPIs, system reliability, branch performance improvement.
+        <br>Led QA initiatives, process improvements, and operational monitoring.
       </li>
       <li>
         <strong>QA / QC Supervisor – J&T Express (2019–2022)</strong>
-        <br>Audits, defect tracking, operational accuracy, reporting.
+        <br>Oversaw audits, defect tracking, and team training to maintain high quality standards.
       </li>
       <li>
         <strong>IT Associate – J&T Express (2018)</strong>
-        <br>System installation, configuration, CCTV network operations.
+        <br>Installed and configured IT systems, monitored CCTV, and ensured preventive maintenance.
       </li>
       <li>
         <strong>IT Administrator – Kedica Philippines (2015–2017)</strong>
-        <br>SAP installation, validation, backups, system maintenance.
+        <br>SAP setup, backups, preventive maintenance, and procurement management.
       </li>
     </ul>
   </section>
 
-  <!-- Contact Section -->
-  <section class="section container">
+  <!-- Certifications -->
+  <section class="section container" id="certifications">
+    <h3>Certifications</h3>
+    <ul>
+      <li>SAP Business One</li>
+      <li>Microsoft Office Specialist</li>
+      <li>TESDA NCII – Computer Hardware Servicing</li>
+      <li>TESDA NCII – Agricultural Crops Production</li>
+    </ul>
+  </section>
+
+  <!-- Education -->
+  <section class="section container" id="education">
+    <h3>Education</h3>
+    <p>Bachelor of Science in Information Technology, College of the Immaculate Conception (2007–2011)</p>
+  </section>
+
+  <!-- Contact -->
+  <section class="section container" id="contact">
     <h3>Contact</h3>
     <p>Email: <strong>enriciasamonte2014@gmail.com</strong></p>
     <p>Phone: <strong>+63 968 277 8655</strong></p>
     <p>Location: Philippines</p>
   </section>
 
-  <!-- Footer -->
   <footer>
     <p>© 2025 Enricia Torres Samonte — Portfolio</p>
   </footer>
