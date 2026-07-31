@@ -1,3 +1,3 @@
 # enriciasamonte-portfolio
-ENRICIA SAMONTE PORTFOLIO|Infrastructure Support Engineer | Linux System Administrator
+ENRICIA SAMONTE PORTFOLIO | Full-Stack Developer | DevOps Engineer
 
